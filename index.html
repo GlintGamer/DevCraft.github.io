@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Login System</title>
-    <style>
-        body{
-            font-family: Arial;
-            background: #1a1a1a;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: white;
-        }
-        .login-box{
-            background: #222;
-            padding: 20px 30px;
-            border-radius: 10px;
-            width: 300px;
-            box-shadow: 0 0 10px #00eaff;
-        }
-        .login-box h2{
-            text-align: center;
-            color: #00eaff;
-        }
-        input{
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0px;
-            border: none;
-            outline: none;
-            border-radius: 5px;
-        }
-        button{
-            width: 100%;
-            padding: 10px;
-            background: #00eaff;
-            border: none;
-            font-size: 17px;
-            font-weight: bold;
-            margin-top: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover{
-            background: #00bcd4;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="login-box">
-        <h2>Login</h2>
-        <form>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
-    </div>
+<header>
+       <h1>Welcome To DevCraft</h1>
+    <p>Your trusted service provider</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="section">
+    <h2>Welcome to My Business</h2>
+    <p>We provide high-quality services to our customers with care and professionalism.</p>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are a dedicated team offering different services to help you grow and succeed.</p>
+</section>
+
+<section id="services" class="section">
+    <h2>Our Services</h2>
+    <ul>
+        <li>✔ Web Development</li>
+        <li>✔ Mobile Repair</li>
+        <li>✔ Marketing Solutions</li>
+        <li>✔ Custom Services</li>
+    </ul>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: contact@mybusiness.com</p>
+    <p>Phone: +91 90000 00000</p>
+</section>
+
+<footer>
+    <p>© 2025 My Business. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
